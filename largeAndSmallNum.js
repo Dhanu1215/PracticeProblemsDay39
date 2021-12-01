@@ -12,5 +12,5 @@ let j = Math.floor(Math.random()*900+100);
 let randomNumbers = [a,b,c,d,e,f,g,h,i,j,h,i]
 let arr = randomNumbers.sort();
 console.log(arr);
-console.log("The second smallest element is "+arr[1]);   //Accessing the smallest element
-console.log("The second largest element is "+arr[arr.length-2]);      //Accessing the largest element
+console.log("The second smallest element is "+arr[1]);   
+console.log("The second largest element is "+arr[arr.length-2]);      
