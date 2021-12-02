@@ -1,4 +1,5 @@
 //Take range of numbers from 0-100 
+
 let numberArray = new Array();
 for(let num=0;num<=100;num++){
     if(num%11 == 0 && num/11>0){
