@@ -1,6 +1,6 @@
 // Generate 10 three digit random numbers
 let numberArray = new Array();
-for(let num=0;num<=10;n++){
+for(let num=0;num<=10;num++){
     let number = Math.floor(Math.random()*900+100);
     numberArray.push(number);  
 }
